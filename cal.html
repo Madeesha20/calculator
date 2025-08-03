@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body class="max-w-full h-screen flex justify-center items-center bg-gradient-to-tr from-[#0a0a0a] to-[#3a4452]">
+        <div class="border border-[#717377] p-10 rounded-4xl bg-transparent shadow-[0px_3px_15px_rgba(113,115,119,0.5)]">
+            <input type="text" placeholder="0" id="inputBox" class="w-md border-0 p[2.3rem] m-4 bg-transparent shadow-[0px_3px_15px_rgba(84,84,84,0.1)] text-5xl text-right cursor-pointer text-white">
+            <div>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-green-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">AC</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-green-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">DEL</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-green-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">%</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-green-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">/</button>
+            </div>
+             <div>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">7</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">8</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">9</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-green-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">*</button>
+            </div>
+             <div>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">4</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">5</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">6</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-green-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">-</button>
+            </div>
+             <div>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">1</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">2</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">3</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-green-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">+</button>
+            </div>
+             <div>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">00</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">0</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-white text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">.</button>
+                <button class="border-0 w-24 h-16 m-2 rounded-full bg-transparent text-orange-500 text-xl shadow-[-8px_-8px_15px_rgba(255,255,255,0.1)] cursor-pointer">=</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
